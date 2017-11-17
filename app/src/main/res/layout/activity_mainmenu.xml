@@ -7,7 +7,7 @@
     tools:context="rono.com.meetdataentry.MainMenu">
 
     <EditText
-        android:id="@+id/team1"
+        android:id="@+id/team2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
@@ -16,6 +16,7 @@
         android:ems="10"
         android:hint="Team 1"
         android:inputType="textPersonName"
+        android:text="Gregory"
         app:layout_constraintBottom_toTopOf="@+id/team2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -33,7 +34,7 @@
         android:clickable="true"
         android:editable="false"
         android:focusable="false"
-        app:layout_constraintBottom_toTopOf="@+id/team1"
+        app:layout_constraintBottom_toTopOf="@+id/team2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -58,6 +59,7 @@
         android:layout_marginBottom="200dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
+        android:onClick="startEvents"
         android:text="Start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
